@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(240, 240, 240);
+  color: #354259;
+  font-size: medium;
+  line-height: normal;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: x-large;
+  line-height: normal;
+}
+
+h1 {
+  color: #c35a9e;
+}
+
+h2 {
+  color: #F15412;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1F4690;
+}
+a:hover {
+  color: #c35a9e;
+}
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0,1);
+  width: 700px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #c35a9e;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0,1);
+}
+.btn-blue:hover {
+background-color: #1F4690;
+color: white;
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
+.social-icon {
+  font-size: 30px;
+  color: rgb(220, 220, 220);
+  margin: 8px 10px;
+}
+.social-icon:hover {
+  color: rgb(100, 100, 100);
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
